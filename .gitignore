@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de dependências
+node_modules/
+
+# Diretório de saída da build
+dist/
+build/
+
+# Arquivos temporários do npm/yarn
+.pnpm-debug.log*
+.yarn-integrity
+.yarnrc.yml
+.pnp.*
+
+# Diretórios do TypeScript
+out/
+.tsbuildinfo
+
+# Arquivos de lock do pacote
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ambiente e variáveis de configuração
+.env
+.env.local
+.env.test
+.env.production
+.env.*.local
+
+# Cache do IDE/Editor
+.idea/
+.vscode/
+*.swp
+
+# Cache do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache do test runners
+coverage/
+
+# Cache do Parcel
+.cache/
+
+# Cache de build do Jest
+jest-cache/
+jest-test-results.json
+
+# Cache do Cypress
+.cypress_cache/
+
+# Cache de linter
+.eslintcache
+
+# Outras pastas temporárias
+tmp/
+temp/
+
+# Ignora arquivos .lock de editores de texto
+*.lock
