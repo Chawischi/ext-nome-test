@@ -1,0 +1,12 @@
+name: Testando github action
+
+on: [push,pull_request]
+
+jobs: 
+  Linux_job:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+      -name: Execute echo
+      run: echo "hello world!"
