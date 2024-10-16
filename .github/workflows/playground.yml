@@ -1,12 +1,12 @@
-name: Testando github action
+name: Testando github actions
 
-on: [push,pull_request]
+on: [push, pull_request]
 
-jobs: 
-  Linux_job:
-
+jobs:
+  linux_job:
+    
     runs-on: ubuntu-latest
 
-    steps: 
-      -name: Execute echo
-      run: echo hello world!
+    steps:
+      - name: Executa echo
+        run: echo hello world!
