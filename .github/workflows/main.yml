@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '20.x'
       - name: Instala deps.
-        uses: npm install
+        run: npm install
       - name: Executa build
-        uses: npx tsc
+        run: npx tsc
       - name: Executando testes
-        uses: npm test 
+        run: npm test 
