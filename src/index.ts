@@ -4,7 +4,7 @@ export function ext(number: number): string {
         'cinco', 'seis', 'sete', 'oito', 'nove'
     ];
 
-    if (number < 0 && number > 9){
+    if (number < 0 || number > 9){
         return ""
     }
 
