@@ -19,8 +19,6 @@ jobs:
     steps: 
       - name: Lista dir
         run: dir 
-      - name: Falha
-        run: exit(1)
   
   final_job:
 
