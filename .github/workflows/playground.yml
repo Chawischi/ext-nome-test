@@ -14,7 +14,7 @@ jobs:
         run: ls
   windows_job:
 
-    runs-on: windows - latest
+    runs-on: windows-latest
 
     steps: 
       - name: Lista dir
